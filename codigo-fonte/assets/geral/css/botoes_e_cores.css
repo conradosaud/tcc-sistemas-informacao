@@ -1,0 +1,35 @@
+
+.btn-branco{
+    background-color: white;
+    color: #333333;
+    box-shadow: 1px 1px 4px black;
+}
+.btn-branco .fa{
+    color: #C90000;
+}
+
+.btn-preto{
+    background-color: #202020;
+    color: white;
+}
+.btn-preto .fa{
+    color: white;
+}
+
+/* modal */
+.modal-header, .modal-footer{
+    background-color: #C90000;
+    color: white;
+}
+
+.mensagem-painel{
+    padding-top: 0px;
+}
+
+.icon-box{
+    padding-top: 0px;
+}
+
+.btn-desabilitado{
+    opacity: 0.5;
+}

@@ -1,0 +1,208 @@
+
+.card-pointer, .mini-card-pointer{
+    cursor: pointer;
+}
+.card-pointer:hover, .mini-card-pointer:hover{
+    box-shadow: 1px 1px 7px black;
+}
+
+/* CARDS NORMAL */
+.menu-lateral-cards{
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 30px;
+}
+
+.overflow-angulo, .overflow-angulo2{
+    position: absolute;
+    height: 70%;
+    top: 35px;
+    z-index: 800;
+}
+.overflow-angulo2{
+    right: 0;
+}
+.overflow-angulo i, .overflow-angulo2 i{
+    margin-top: 110px;
+    margin-left: 15px;
+    display: block;
+    text-shadow: 1px 1px 5px black;
+    color: #FFF;
+}
+
+.card{
+    white-space: normal;
+    box-shadow: 1px 1px 5px gray;
+    margin-bottom:20px;
+}
+
+.card-fix-height{
+    height: 345px;
+}
+
+.bloco-card{
+    padding: 0px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+/* MINI CARDS */
+
+.mini-card{
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    white-space: normal;
+    margin-bottom: 15px;
+}
+
+.mini-card button{
+    width: 100px;
+    padding: 5px;
+    font-size: 10px;
+    margin:0;
+    text-align: center;
+}
+
+.mini-card p{
+    margin: 0;
+    padding: 5px 10px;
+}
+
+
+.card-img{
+    padding: 0;
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-heading{
+    position: relative;
+}
+
+.card-title{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 1px 1px 5px black;
+    bottom: 0;
+    padding: 0 0px;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,152,0,0.7);
+    max-height: 60px;
+}
+
+.card-body{
+    margin-top: 10px;
+}
+
+.card-detail{
+    padding: 0 20px;
+}
+.card-detail span{
+    padding: 7px;
+}
+.card-detail1{
+    color: #FF9800;
+}
+.card-detail2{
+    float:right;
+}
+
+.card-desc{
+    padding: 5px 20px;
+}
+.card-button{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: rgba(155, 155, 155, 0.5);
+}
+.mini-card-button{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(155, 155, 155, 0.5);
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.btn-creativebutton{
+    padding: 10px 20px;
+}
+
+/* smartphones, iPhone, portrait 480x320 phones / original: 320 */
+@media (max-width:558px)  {  
+    
+    .bloco-card{
+        width: 300px;
+    }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. / original: 481 */
+@media (max-width:574px)  {  
+    .overflow-angulo i, .overflow-angulo2 i{
+        font-size: 25px;
+    }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones  / original: 641 */
+@media (max-width:769px)  { 
+    .card{
+        max-width: 350px;
+    }
+    
+    .bloco-card{
+        width: 300px;
+    }
+    
+    .overflow-angulo i, .overflow-angulo2 i{
+        font-size: 35px;
+    }
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones  / original: 641 */
+@media (max-width:800px)  { 
+
+    .bloco-card{
+        margin-right: 30px;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops / original: 961 */
+@media (max-width:989px)  { 
+    .card{
+        height: 360px;;
+    }
+    .card-button{
+        top: 290px;
+        left: 0px;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops / original: 1025 */
+@media (max-width:1196px) { 
+    .card-title{
+        font-size: 17px;
+        max-height: 50px;
+    }
+}
+
+/* smartphones, iPhone, portrait 480x320 phones / original: 320 */
+@media (max-width:405px)  {  
+    .btnCadastrese{
+        margin-left: -30px;;
+        display: block;
+    }
+}

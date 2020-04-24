@@ -1,0 +1,42 @@
+
+.menu-filtro{
+    width: 90%;
+    background-color: #FF9800;
+    padding: 0 20px;
+}
+
+.menu-filtro a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.menu-filtro i{
+    font-size: 12px;
+}
+
+.menu-filtro div{
+    padding-top: 8px;
+}
+
+.menu-filtro-cabecalho{
+    background-color: #F57C00;
+    padding: 15px 0px;
+    margin: 0;
+    width: 90%;
+    border: 1px solid rgba(115,86,66,0.5);
+}
+
+.menu-filtro section{
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+.filtro-rapido{
+    font-size: 1.2em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.filtro-rapido span{
+    padding: 6px;
+}

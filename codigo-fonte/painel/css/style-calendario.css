@@ -1,0 +1,33 @@
+.calendario thead{
+    background-color: #EFBA4D;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.calendario-muted{
+    color: gray;
+    background-color: #F5F5F5;
+}
+
+.calendario-muted2{
+    opacity: 0.5;
+}
+
+.calendario thead, .calendario-muted, .calendario-muted2:hover{
+    cursor: default;
+}
+
+.calendario tbody td:hover:not(.calendario-muted){
+    cursor: pointer;
+    background-color: #EF914D;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.calendario-selecionado{
+    background-color: #EF914D;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+

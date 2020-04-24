@@ -1,0 +1,66 @@
+/* http://androidcss.com/css/css3-floating-button-tutorial/ */
+
+.btn-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#F33;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index:1000;
+    animation: bot-to-top 2s ease-out;
+}
+
+.btn-float:focus{
+    color: #FFF;
+}
+
+#input-float{
+    box-shadow: 0px 0px 5px #F33;
+    width: 100%;
+}
+#input-float:focus{
+    outline: none !important;
+    border:1px solid #F33;
+    box-shadow: 0px 0px 5px #F33;
+}
+
+.ul-float{
+    position:fixed;
+    right:40px;
+    padding-right:70px;
+    bottom:30px;
+    z-index:100;
+}
+
+.ul-float li{
+    list-style:none;
+}
+
+.ul-float:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+#ul-float{
+  display: none;
+}
+
+a.btn-float:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}

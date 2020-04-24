@@ -1,0 +1,169 @@
+a:hover{
+    text-decoration: underline;
+    color: inherit;
+    font-weight: 500;
+}
+
+.multi-endereco{
+    background-color: #FFF;
+    padding: 10px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.multi-endereco-link{
+    background-color: #555;
+    color: #FFF;
+    text-decoration: underline;
+}.multi-endereco-link:focus{
+    color: #FFF;
+}
+
+.anuncio{ 
+    width: 90% !important;
+    overflow-y: auto !important;
+    background-color: #F3EFE0 !important; 
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.bagde-anuncio{
+    font-size: 15px;
+}
+
+.bg-anuncio{
+    background-color: #24262E;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.promocao{
+    background-image: url("https://www.solidsmack.com/wp-content/uploads/2007/06/orange-light.png");
+    background-size: 100%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+}
+
+
+
+.card-deck-overflow {
+    margin-top: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card-edit{
+    display: inline-block;
+    white-space: normal;
+    margin: 0 5px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.card-edit h3{
+    font-size: 1.5em;
+}
+.card-edit p{
+    font-size: 1em;
+}
+
+.table thead{
+    background-color: rgba(204,204,204,0.3);
+}
+
+.text-desc{
+    padding: 0 35px;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-fechar-flutuante{
+    top:40px;
+    left: 80%;
+    right: 0;
+    display: none;
+}.btn-fechar-flutuante i{
+    font-size: 20px;
+    margin-top: 18px;
+}.btn-fechar-flutuante:hover{
+    color: white;
+    box-shadow: 1px 1px 7px gray;
+}
+
+
+.btnAcessoRapido a{
+    margin-right: 10px;
+}
+
+.dragscroll{
+    cursor: pointer;
+}
+
+@media (max-width:1440px){
+
+}
+@media (max-width:1366px){
+    
+}
+@media (max-width:1280px){
+    
+}
+@media (max-width:1040px){
+
+}
+@media (max-width:1024px){
+
+}
+@media (max-width:768px){
+    .anuncio{
+        width: 85% !important;
+    }
+    .btn-fechar-flutuante{
+        left: 75%;
+    }
+}
+@media (max-width:640px){  
+    .anuncio{
+        width: 90% !important;
+    }
+    .btn-fechar-flutuante{
+        left: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width:321px)
+{
+    .anuncio{
+        width: 95% !important;
+    }
+    .btn-fechar-flutuante{
+        left: 75%;
+    }
+    .text-desc{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width:240px)
+{
+    .anuncio{
+        width: 96% !important;
+    }
+    .btn-fechar-flutuante{
+        left: 76%;
+    }
+}

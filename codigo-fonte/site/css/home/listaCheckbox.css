@@ -1,0 +1,50 @@
+
+#listasCheckbox{
+    padding: 15px;
+}
+
+#listasCheckbox h2{
+    font-size: 15px;
+}
+
+#listasCheckbox ul{
+    font-size: 14px;
+}
+
+#listasCheckbox .limiteScroll{
+    max-height: 300px;
+    overflow: auto;
+    position: relative;
+}
+
+/*
+#listasCheckbox section{
+    margin-bottom: 10px;
+}
+*/
+.card-color{
+    padding: 15px;
+}
+
+.checkboxList{
+    list-style: none;
+    margin-left: -40px;
+}
+.checkboxList label{
+    padding-left: 5px;
+}
+
+.btnVerTodos{
+    text-decoration: underline;
+}.btnVerTodos:hover{
+    color: #664B3A;
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    #listasCheckbox .limiteScroll{
+        min-width: 150px;
+    }
+}
+
+

@@ -1,0 +1,45 @@
+
+
+.navbar-toggle-block-edit{
+    position: absolute;
+    right: 45px;
+    margin-top: 45px;
+    z-index: 1000;
+    background-color: #F57C00;
+    border: 3px solid #607D8B;
+}
+.navbar-toggle-block-edit a{
+    margin-top: 20px;
+}
+.navbar-toggle-block-edit a:focus{
+    text-decoration: none;
+    color: #FFE0B2;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 10px;
+    z-index: 10;
+}
+
+nav .input-group input, nav .input-group button{
+    border-color: #BDBDBD;
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+

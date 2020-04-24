@@ -1,0 +1,40 @@
+
+.menu-lateral{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    white-space: nowrap;
+    overflow-x: auto;
+    position: relative;
+}
+
+.bloco{
+    padding: 0px;
+    display: inline-block;
+}
+
+.bloco img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.cabecalho-titulo{
+    position: absolute; 
+    top: 20px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    width: 300px;
+    color: #FFE0B2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+.item2{
+    margin-top: -95px;
+    margin-left: 100px;
+}
+*/
+

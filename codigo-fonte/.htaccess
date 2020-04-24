@@ -1,0 +1,13 @@
+##### LOCAWEB - NAO REMOVER #####
+#AddHandler php71-script .php
+#suPHP_ConfigPath /home/estalando/
+##### LOCAWEB - NAO REMOVER #####
+
+
+RewriteEngine on
+
+RewriteRule ^painel/painel_de_acesso$ /painel/login/painel_de_acesso.php?&%{QUERY_STRING}
+
+
+
+
