@@ -12,5 +12,6 @@ Sobre o código-fonte, está faltando o arquivo do banco de dados SQL, que eu pe
 A conexão com o banco foi feita utilizando o padrão de projeto Singleton.
 O sistem autiliza a autenticação através do Facebook, então é necessário utilizar o OAuth 2.0, baixar os arquivos e colocar dentro da pasta painel.
  
-*Foto pós-apresentação do TCC com meus amigos*
+*Foto pós-apresentação do TCC com meus amigos*  
+
 ![Conrado Saud](https://github.com/conradosaud/tcc-sistemas-informacao/blob/master/unifran-conrado-saud.jpg?raw=true)
